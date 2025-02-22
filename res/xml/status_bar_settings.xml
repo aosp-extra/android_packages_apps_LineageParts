@@ -112,4 +112,10 @@
             android:defaultValue="true" />
     </PreferenceCategory>
 
+    <SwitchPreferenceCompat
+        android:key="ongoing_action_chip"
+        android:title="@string/ongoing_action_chip_title"
+        android:summary="@string/ongoing_action_chip_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
